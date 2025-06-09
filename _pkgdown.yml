@@ -3,4 +3,32 @@ template:
   bootstrap: 5
   bslib:
     bootswatch: zephyr
+    primary: "#c70000"
+    base_font: {google: "Outfit"}
+    code_font: {google: "Fira Code"}
+  light-switch: true
+  theme: atom-one-light
+  theme-dark: atom-one-dark
 
+reference:
+  - title: Functions that print things
+    desc: These functions will all print things to your console.
+    contents:
+      -starts_with("print_")
+
+navbar:
+  structure:
+    right: [search, github, my_linkedin, lightswitch]
+  components:
+    my_linkedin:
+      icon: fa-linkedin
+      href: https://www.linkedin.com/in/shonushka-sawant/
+      aria-label: LinkedIn
+
+footer:
+  structure:
+    left: developed_by
+    right: built_with_pkgdown
+  components:
+    developed_by: "Developed by Shonushka Sen."
+    built_with_pkgdown: "This site was built using [pkgdown](https://pkgdown.r-lib.org/)!&nbsp;&nbsp;<img src='https://pkgdown.r-lib.org/logo.png' alt='pkgdown logo' width='25'>"
