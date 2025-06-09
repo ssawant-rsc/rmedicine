@@ -1,0 +1,8 @@
+pandoc: 3.1.11
+pkgdown: 2.1.3
+pkgdown_sha: ~
+articles: {}
+last_built: 2025-06-09T19:40Z
+urls:
+  reference: https://ssawant-rsc.github.io/rmedicine/reference
+  article: https://ssawant-rsc.github.io/rmedicine/articles
