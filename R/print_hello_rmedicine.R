@@ -1,7 +1,7 @@
 #' Print hello R/Medicine
 #'
 #' This function just prints hello R/Medicine.
-#'
+#'help
 #' @param x This argument does nothing.
 #'  If it did do something, it might require more words to explain.
 #'
